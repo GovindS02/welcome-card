@@ -24,7 +24,7 @@ function App() {
           Welcome to React Learning, <strong>{yourName}</strong>
         </p>
 
-        {/* Internal Image */}
+        
         <img
           src={image}
           className="img-fluid rounded mb-3"
@@ -32,7 +32,6 @@ function App() {
           style={{ width: "200px" }}
         />
 
-        {/* External Image */}
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
           className="img-fluid rounded mb-3"
